@@ -1,0 +1,26 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,"Noto Sans Devanagari",sans-serif;background:#f2f4f7;color:#202124;line-height:1.6}
+.hero{background:#fff;text-align:center;border-bottom:4px solid #e5e5e5}
+.top-banner{min-height:330px;padding:35px 20px 45px;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#fff}
+.top-banner img{width:155px;height:155px;object-fit:cover;border-radius:50%;border:6px solid #fff;box-shadow:0 5px 25px rgba(0,0,0,.25);margin-bottom:18px}
+.top-banner h1{font-size:58px;font-weight:900;color:#172554;margin-bottom:5px}
+.top-banner p{font-size:21px;font-weight:600;color:#334155}
+.badge{display:inline-block;margin:-20px auto 20px;padding:8px 20px;background:#172554;color:#fff;border-radius:30px;font-size:13px;font-weight:700;letter-spacing:1px;box-shadow:0 4px 12px rgba(0,0,0,.15)}
+.container{max-width:1000px;margin:25px auto;padding:0 15px}
+.card{background:#fff;margin-bottom:22px;padding:25px;border-radius:18px;border:1px solid #e2e2e2;box-shadow:0 6px 20px rgba(0,0,0,.07)}
+.card h2{display:inline-block;background:#172554;color:#fff;padding:9px 22px;border-radius:8px 20px 20px 8px;font-size:21px;margin-bottom:20px}
+.info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.info-grid div{background:#f8fafc;border:1px solid #dce1e7;border-radius:12px;padding:18px}
+.info-grid span{display:block;color:#666;font-size:14px;margin-bottom:4px}
+.info-grid strong{display:block;font-size:21px;color:#172554}
+.poster-box{width:100%;overflow:hidden;border-radius:14px;background:#eee;border:1px solid #ddd;padding:5px}
+.poster-box img{display:block;width:100%;height:auto;max-height:850px;object-fit:contain;border-radius:10px}
+#issues{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+#issues li{background:#f8fafc;border:1px solid #dce1e7;border-left:5px solid #172554;padding:15px;border-radius:10px;font-size:16px}
+.links{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.links a{padding:16px;background:#f8fafc;color:#172554;text-decoration:none;border:1px solid #d7dce2;border-radius:12px;font-weight:700}
+.links a:hover{background:#eef2ff}
+.contact-card p{font-size:20px;font-weight:600;padding:15px;background:#f8fafc;border-radius:10px;border:1px solid #ddd}
+footer{background:#172554;color:#fff;text-align:center;padding:22px 15px;margin-top:30px;font-size:14px}
+@media(max-width:700px){.top-banner{min-height:270px;padding:25px 15px 40px}.top-banner img{width:115px;height:115px;border-width:4px}.top-banner h1{font-size:40px}.top-banner p{font-size:16px}.container{padding:0 10px}.card{padding:17px}.card h2{font-size:18px;padding:8px 15px}.info-grid,#issues,.links{grid-template-columns:1fr}.poster-box{padding:3px}}
+@media(max-width:400px){.top-banner h1{font-size:34px}.top-banner p{font-size:14px}.top-banner img{width:95px;height:95px}.info-grid strong{font-size:18px}}
